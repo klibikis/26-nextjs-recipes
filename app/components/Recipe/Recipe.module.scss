@@ -1,0 +1,21 @@
+.recipe{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.203);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.451);
+        .image{
+            transform: scale(1.1)
+        }
+    }
+}
+.imageFormat{
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
